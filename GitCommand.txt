@@ -1,11 +1,13 @@
-git init 			初始化一个git仓库，在路径下（.git）
-git add 文件名 			将文件放入暂存区
-git commit -m “修改信息”   	提交版本
-git status			查看git状态
-git diff			查看文件改动
-git log				提交的历史
-git reset —-hard HEAD^ /HEAD~100 /commit id 回退到某个版本
-git reflog			所有的提交历史，包括回退 
-git checkout -- 文件名		把工作区恢复到上一个版本的状态
-git reset HEAD 文件名		把暂存区的修改撤销掉（unstage），重新放回工作区（工作区不变？试验一下）
-git rm 文件名			删除版本库中的文件，仍需要再次commit提交
+git init                                        初始化一个git仓库，在路径下（.git）
+git add 文件名                                   将文件放入暂存区
+git commit -m “修改信息”                         提交版本
+git status                                      查看git状态
+git diff                                        查看文件改动
+git log                                         提交的历史
+git reset —-hard HEAD^ /HEAD~100 /commit id     回退到某个版本
+git reflog                                      所有的提交历史，包括回退
+git checkout -- 文件名                           把工作区恢复到上一个版本的状态
+git reset HEAD 文件名                            把暂存区的修改撤销掉（unstage），重新放回工作区（工作区不变？试验一下）
+git rm 文件名                                    删除版本库中的文件，仍需要再次commit提交
+git push -u origin master                       首次推送github用这个
+git remote add origin git@github.com:jgh33/learngit.git         关联远程仓库
