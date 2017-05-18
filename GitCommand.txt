@@ -8,3 +8,4 @@ git reset —-hard HEAD^ /HEAD~100 /commit id 回退到某个版本
 git reflog			所有的提交历史，包括回退 
 git checkout -- 文件名		把工作区恢复到上一个版本的状态
 git reset HEAD 文件名		把暂存区的修改撤销掉（unstage），重新放回工作区（工作区不变？试验一下）
+git rm 文件名			删除版本库中的文件，仍需要再次commit提交
