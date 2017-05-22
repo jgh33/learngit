@@ -11,3 +11,11 @@ git reset HEAD 文件名                            把暂存区的修改撤销�
 git rm 文件名                                    删除版本库中的文件，仍需要再次commit提交
 git push -u origin master                       首次推送github用这个
 git remote add origin git@github.com:jgh33/learngit.git         关联远程仓库
+git merga 分支名					将指定的分支合并到当前分支
+git branch					查看分支
+git branch 分支名					创建分支
+git branch -d 分支名				删除分支
+git checkout 分支名				切换分支
+git checkout -b 分支名				创建并切换分支
+git push <仓库名> <分支名> -f			强制推送本地版本到远程仓库  origin master -f
+git reset --hard origin/master			回退到远程最新版本
